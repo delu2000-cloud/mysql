@@ -1,8 +1,5 @@
 def app
-pipeline {
-  agent {
-    dockerfile true 
-  }
+node {
 
   stages {
     stage('Clone repository') {
