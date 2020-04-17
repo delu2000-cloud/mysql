@@ -1,5 +1,4 @@
 def app
-node {
 
   stages {
     stage('Clone repository') {
@@ -12,4 +11,3 @@ node {
       }
     }
   }
-}
